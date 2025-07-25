@@ -36,10 +36,32 @@
    - `VITE_FIREBASE_APP_ID`
    - `VITE_GEMINI_API_KEY`
 
-#### Netlify
-1. In your Netlify dashboard, go to Site settings
-2. Navigate to "Environment variables"
-3. Add each variable from your `.env` file
+#### Netlify (Recommended)
+1. **Connect GitHub Repository:**
+   - Go to [netlify.com](https://netlify.com) and sign up/login
+   - Click "Add new site" → "Import an existing project"
+   - Connect your GitHub account and select the "BhaiChat" repository
+   - Netlify will auto-detect it's a Vite project
+
+2. **Configure Build Settings:**
+   - Build command: `npm run build` (auto-detected)
+   - Publish directory: `dist` (auto-detected)
+   - These are already configured in `netlify.toml`
+
+3. **Add Environment Variables:**
+   - Go to Site settings → Environment variables
+   - Add each variable from your `.env` file:
+     - `VITE_FIREBASE_API_KEY`
+     - `VITE_FIREBASE_AUTH_DOMAIN`
+     - `VITE_FIREBASE_PROJECT_ID`
+     - `VITE_FIREBASE_STORAGE_BUCKET`
+     - `VITE_FIREBASE_MESSAGING_SENDER_ID`
+     - `VITE_FIREBASE_APP_ID`
+     - `VITE_GEMINI_API_KEY`
+
+4. **Deploy:**
+   - Click "Deploy site"
+   - Your app will be live in a few minutes!
 
 #### Other Platforms
 For other deployment platforms, consult their documentation on setting environment variables.
