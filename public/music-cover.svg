@@ -1,0 +1,8 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#FED7D7"/>
+<circle cx="150" cy="150" r="80" fill="#F97316"/>
+<circle cx="150" cy="150" r="20" fill="#FED7D7"/>
+<path d="M130 100L170 100L170 90L130 90V100Z" fill="#F97316"/>
+<path d="M170 90V120C170 125.523 165.523 130 160 130C154.477 130 150 125.523 150 120C150 114.477 154.477 110 160 110C162.761 110 165.261 111.239 170 113V90Z" fill="#FED7D7"/>
+<text x="150" y="250" text-anchor="middle" fill="#F97316" font-family="Arial, sans-serif" font-size="16" font-weight="bold">MUSIC</text>
+</svg>

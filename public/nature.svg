@@ -1,0 +1,21 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="nature" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+<stop offset="50%" style="stop-color:#98fb98;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect width="300" height="300" fill="url(#nature)"/>
+<circle cx="100" cy="80" r="15" fill="#ffff00" opacity="0.9"/>
+<ellipse cx="150" cy="220" rx="100" ry="30" fill="#4169e1" opacity="0.7"/>
+<rect x="80" y="160" width="12" height="60" fill="#8b4513"/>
+<ellipse cx="86" cy="155" rx="20" ry="15" fill="#006400"/>
+<rect x="180" y="140" width="15" height="80" fill="#8b4513"/>
+<ellipse cx="187" cy="135" rx="25" ry="18" fill="#006400"/>
+<circle cx="60" cy="200" r="4" fill="#ff69b4"/>
+<circle cx="240" cy="180" r="3" fill="#ffffff"/>
+<circle cx="200" cy="210" r="4" fill="#ff1493"/>
+<path d="M50 250 Q150 240 250 250 L250 300 L50 300 Z" fill="#228b22"/>
+<text x="150" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">NATURE</text>
+</svg>

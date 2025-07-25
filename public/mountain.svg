@@ -1,0 +1,9 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#87ceeb"/>
+<polygon points="50,250 100,150 150,200 200,100 250,180 300,250 300,300 0,300" fill="#2e8b57"/>
+<polygon points="80,200 120,120 160,160 200,80 240,140 280,200 280,300 80,300" fill="#3cb371" opacity="0.8"/>
+<polygon points="120,180 150,100 180,140 210,70 240,120 270,180 270,300 120,300" fill="#90ee90" opacity="0.6"/>
+<circle cx="200" cy="50" r="25" fill="white" opacity="0.8"/>
+<path d="M190 45 Q195 40 200 45 Q205 40 210 45" stroke="#87ceeb" stroke-width="2" fill="none"/>
+<text x="150" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">MOUNTAIN</text>
+</svg>

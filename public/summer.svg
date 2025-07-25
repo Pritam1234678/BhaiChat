@@ -1,0 +1,18 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="summer" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#ffff00;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect width="300" height="300" fill="url(#summer)"/>
+<circle cx="80" cy="60" r="25" fill="#ffd700"/>
+<path d="M70 40 L90 40 M55 60 L105 60 M70 80 L90 80 M62 47 L98 73 M62 73 L98 47" stroke="#ffd700" stroke-width="2"/>
+<ellipse cx="150" cy="250" rx="80" ry="20" fill="#00bfff"/>
+<ellipse cx="150" cy="245" rx="60" ry="15" fill="#87ceeb"/>
+<rect x="200" y="180" width="8" height="40" fill="#deb887"/>
+<polygon points="204,175 195,180 213,180" fill="#228b22"/>
+<circle cx="120" cy="200" r="3" fill="#ff6347"/>
+<circle cx="180" cy="210" r="3" fill="#ff6347"/>
+<text x="150" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">SUMMER</text>
+</svg>

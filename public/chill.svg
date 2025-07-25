@@ -1,0 +1,17 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#4169e1"/>
+<circle cx="150" cy="150" r="100" fill="#ffd700" opacity="0.3"/>
+<circle cx="150" cy="150" r="70" fill="#ff8c00" opacity="0.4"/>
+<circle cx="150" cy="150" r="40" fill="#ff4500" opacity="0.5"/>
+<circle cx="150" cy="150" r="20" fill="#ff6b35"/>
+<path d="M130 130 L170 130 L170 120 L130 120 V130Z" fill="#ff4500"/>
+<path d="M170 120 V150 C170 155.523 165.523 160 160 160 C154.477 160 150 155.523 150 150 C150 144.477 154.477 140 160 140 C162.761 140 165.261 141.239 170 143 V120Z" fill="#ffd700"/>
+<g opacity="0.8">
+<circle cx="80" cy="80" r="2" fill="white"/>
+<circle cx="220" cy="90" r="1.5" fill="white"/>
+<circle cx="250" cy="120" r="2" fill="white"/>
+<circle cx="70" cy="180" r="1.5" fill="white"/>
+<circle cx="230" cy="200" r="2" fill="white"/>
+</g>
+<text x="150" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">CHILL VIBES</text>
+</svg>

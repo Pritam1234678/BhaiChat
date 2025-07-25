@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+/* Simple scrollbar styling for all elements */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e0 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.dark *::-webkit-scrollbar-thumb {
+  background: #374151;
+}
+
+.dark *::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Force theme backgrounds with maximum specificity */
+html, html:not(.dark), html.light {
+  background-color: white !important;
+  color: black !important;
+}
+
+html.dark {
+  background-color: black !important;
+  color: white !important;
+}
+
+body, body:not(.dark), body.light {
+  background-color: white !important;
+  color: black !important;
+}
+
+body.dark {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Override any Tailwind background utilities */
+.bg-gray-50, .bg-gray-100, .bg-gray-200, .bg-white {
+  background-color: white !important;
+}
+
+.dark .bg-gray-50, .dark .bg-gray-100, .dark .bg-gray-200, .dark .bg-white,
+.dark .bg-gray-800, .dark .bg-gray-900, .dark .bg-black {
+  background-color: black !important;
+}
+
+/* Force text colors */
+.text-gray-900, .text-black {
+  color: black !important;
+}
+
+.text-gray-600, .text-gray-700, .text-gray-800 {
+  color: #374151 !important;
+}
+
+.text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.dark .text-gray-900, .dark .text-black,
+.dark .text-gray-600, .dark .text-gray-700, .dark .text-gray-800,
+.dark .text-gray-500, .dark .text-white {
+  color: white !important;
+}
+
+.dark .text-gray-400 {
+  color: #9ca3af !important;
+}
+
+/* Enhanced smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Professional backdrop blur support */
+.backdrop-blur-xl {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Prose styles for markdown content */
+.prose {
+  max-width: none;
+}
+
+.prose p {
+  margin-bottom: 1em;
+}
+
+.prose pre {
+  background-color: #f7fafc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.dark .prose pre {
+  background-color: #2d3748;
+}
+
+.prose code {
+  background-color: #edf2f7;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+.dark .prose code {
+  background-color: #4a5568;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Utility classes */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.3s ease-out;
+}
+
+.animate-pulse-custom {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Focus styles */
+.focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .chat-container {
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for mobile */
+  }
+}

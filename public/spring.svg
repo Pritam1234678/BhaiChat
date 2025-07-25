@@ -1,0 +1,17 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#98fb98"/>
+<rect x="70" y="140" width="10" height="60" fill="#8b4513"/>
+<ellipse cx="75" cy="135" rx="15" ry="10" fill="#ff69b4"/>
+<rect x="130" y="150" width="8" height="50" fill="#8b4513"/>
+<ellipse cx="134" cy="145" rx="12" ry="8" fill="#ffffff"/>
+<rect x="190" y="145" width="12" height="55" fill="#8b4513"/>
+<ellipse cx="196" cy="140" rx="18" ry="12" fill="#ff1493"/>
+<rect x="240" y="155" width="9" height="45" fill="#8b4513"/>
+<ellipse cx="244" cy="150" rx="14" ry="9" fill="#ffb6c1"/>
+<path d="M0 200 Q150 190 300 200 L300 300 L0 300 Z" fill="#90ee90"/>
+<circle cx="100" cy="220" r="4" fill="#ff69b4"/>
+<circle cx="160" cy="210" r="3" fill="#ffffff"/>
+<circle cx="220" cy="225" r="4" fill="#ff1493"/>
+<circle cx="50" cy="230" r="3" fill="#ffb6c1"/>
+<text x="150" y="280" text-anchor="middle" fill="#2f4f4f" font-family="Arial, sans-serif" font-size="14" font-weight="bold">SPRING</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="desert" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" style="stop-color:#ff8c00;stop-opacity:1" />
+<stop offset="70%" style="stop-color:#ffd700;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#daa520;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect width="300" height="300" fill="url(#desert)"/>
+<circle cx="250" cy="60" r="35" fill="#ff4500" opacity="0.8"/>
+<path d="M0 180 Q75 160 150 180 T300 180 L300 300 L0 300 Z" fill="#cd853f"/>
+<path d="M50 220 Q125 200 200 220 T350 220 L350 300 L50 300 Z" fill="#daa520"/>
+<ellipse cx="120" cy="200" rx="8" ry="20" fill="#228b22"/>
+<ellipse cx="122" cy="195" rx="12" ry="8" fill="#32cd32"/>
+<ellipse cx="180" cy="210" rx="6" ry="15" fill="#228b22"/>
+<ellipse cx="181" cy="207" rx="9" ry="6" fill="#32cd32"/>
+<text x="150" y="280" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">DESERT</text>
+</svg>
